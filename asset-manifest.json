@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ALC-Mohammedia/static/css/main.ca5675e7.css",
-    "main.js": "/ALC-Mohammedia/static/js/main.93bc27fe.js",
+    "main.css": "/ALC-Mohammedia/static/css/main.8e6cbadd.css",
+    "main.js": "/ALC-Mohammedia/static/js/main.d6039525.js",
     "index.html": "/ALC-Mohammedia/index.html",
-    "main.ca5675e7.css.map": "/ALC-Mohammedia/static/css/main.ca5675e7.css.map",
-    "main.93bc27fe.js.map": "/ALC-Mohammedia/static/js/main.93bc27fe.js.map"
+    "main.8e6cbadd.css.map": "/ALC-Mohammedia/static/css/main.8e6cbadd.css.map",
+    "main.d6039525.js.map": "/ALC-Mohammedia/static/js/main.d6039525.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca5675e7.css",
-    "static/js/main.93bc27fe.js"
+    "static/css/main.8e6cbadd.css",
+    "static/js/main.d6039525.js"
   ]
 }
