@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alcmohammedia.com/",
+  "homepage": "https://{username}.github.io/{repository-name}",
   "dependencies": {
     "@babel/eslint-parser": "^7.14.7",
     "@babel/plugin-transform-class-properties": "^7.8.3",
@@ -41,8 +41,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "clean-gh-pages": "rimraf node_modules/.cache/gh-pages",
-    "deploy": "npm run clean-gh-pages && gh-pages -d build --git git -b gh-pages"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
