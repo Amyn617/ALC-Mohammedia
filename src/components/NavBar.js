@@ -110,7 +110,7 @@ const NavBar = () => {
         <Link to="/" onClick={() => handleNavigation("/")}>
           <img
             src={`${process.env.PUBLIC_URL}/assets/images/svg/logo.svg`}
-            alt="ALC Mohammedia"
+            alt="ALC Mohammedia logo"
             className="w-56 lg:w-48 py-6"
           />
         </Link>
