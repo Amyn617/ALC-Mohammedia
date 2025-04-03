@@ -40,9 +40,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "clean": "rimraf node_modules/.cache/gh-pages",
     "predeploy": "npm run build && npm run add-domain",
-    "deploy": "gh-pages -d build --branch gh-pages",
-    "add-domain": "echo \"alcmohammedia.com\" > build/CNAME"
+    "deploy": "npm run clean && gh-pages -d build",
+    "add-domain": "echo alcmohammedia.com > build/CNAME"
   },
   "eslintConfig": {
     "extends": [
