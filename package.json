@@ -2,7 +2,7 @@
   "name": "test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{username}.github.io/{repository-name}",
+  "homepage": "https://amyn617.github.io/ALC-Mohammedia",
   "dependencies": {
     "@babel/eslint-parser": "^7.14.7",
     "@babel/plugin-transform-class-properties": "^7.8.3",
@@ -40,10 +40,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "clean": "rimraf node_modules/.cache/gh-pages",
-    "predeploy": "npm run build && npm run add-domain",
-    "deploy": "npm run clean && gh-pages -d build",
-    "add-domain": "echo alcmohammedia.com > build/CNAME"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
